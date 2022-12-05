@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2022-12-05 10:05:39" Modified_Date="2022-12-05 10:07:11" Creator="hsxa" Comments="" ID="650ce7c10e92b043255b9043672e6b43">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2022-12-05 10:05:39" Modified_Date="2022-12-05 15:55:04" Creator="hsxa" Comments="" ID="3721fe199e9dbbc21a762112c2a100d0">
   <Library_General_Settings>
     <Package_File_Name>haobo_li_lib_LabVIEW_Fonts_Fix</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\SourceCode</Library_Source_Folder>
     <Library_Output_Folder>..\VipmBuild</Library_Output_Folder>
@@ -28,27 +28,43 @@
     <VI_Package_Configuration_File>LabVIEW Fonts Fix.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Tookit for Fix LabVIEW Fonts BUG In Asia CJK Language,Apply To LabVIEW version later than 2011.</One_Line_Description_Summary>
-      <Description>LabVIEWFontsFix
-Tookit for Fix LabVIEW Fonts BUG In Asia CJK Language,Apply To LabVIEW version later than 2011.
+      <Description># LabVIEWFontsFix
+Tookit for Fix LabVIEW Fonts BUG In Asia CJK Language Windows, Apply To LabVIEW version later than 2011.
 
-What is the Bug?
-If you set Control Panel\Clock, Language, and Region\Region and Language\Formats\Format: as Chinese/Japanese/Koarean(which is default in localized Windows) Using LabVIEW 2012 and later some fonts such as small fonts or NI7SEG is not working
+## What is the Bug?
+If you set Control Panel\Clock, Language, and Region\Region and Language\Formats\Format: as Chinese/Japanese/Koarean(which is default in localized Windows)
+Using LabVIEW 2012 and later some fonts such as small fonts or NI7SEG is not working
 
-How did this Fix work
-add fonts config in LabVIEW.ini to make LabVIEW deal fonts Correctly
+## How did this Fix work
+add fonts config in LabVIEW.ini to make LabVIEW deal fonts Correctly 
 
-How to use this fix
-If you install LabVIEW in Default Path run VI in sourcecode folder
+## How to use this fix
 
-Todo
-Make the fix to a LabVIEW Menu Tool Use LabVIEW Install Path to Instead fixed path Publish This Tool to VIPM
+run VI in sourcecode folder
+If you install mutiple LabVIEW in Default Path(C:\Program Files (x86)\National Instruments or C:\Program Files\National Instruments) 
+If you use vipm to install this fix,Run from LabVIEW\Tools\Fix Fonts menu
 
-License
-BSD3</Description>
+## Change Log
+1.0.0.5
+Make the fix to a LabVIEW Menu Tool
+Use LabVIEW Install Path to Instead fixed path
+Publish This Tool to VIPM
+1.0.0.1
+First Release
+
+## Todo
+Make a dialog version.
+Choose fonts to add to LabVIEW.ini.
+make this fix work in Runtime envorment.
+fonts auto install
+## License
+BSD3
+</Description>
       <Copyright/>
       <Packager>lhb5883</Packager>
       <URL>https://github.com/lhb5883/LabVIEWFontsFix</URL>
-      <Release_Notes/>
+      <Release_Notes>Make the fix to a LabVIEW Menu Tool
+Use LabVIEW Install Path to Instead fixed path</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -127,9 +143,6 @@ BSD3</Description>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
