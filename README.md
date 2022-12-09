@@ -43,4 +43,11 @@ BSD3
 
 ## Reference
 NI KB about the bug
+
 https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z0000019ZTFSA2&l=zh-CN
+
+
+NI Community Discuss
+
+https://forums.ni.com/t5/LabVIEW/quot-Small-Font-quot-in-LabVIEW-2013-2012-Icon-Editor/m-p/3291620/highlight/true#M962267
+
